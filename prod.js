@@ -7,7 +7,8 @@ console.log("invoking rest api");
 
 var products=[{id:1,title:"ROse",description:"nice flower"},
 {id:2,title:"lily",description:"yellow flower"},
-{id:3,title:"gerbera",description:"wedding flower"}];
+{id:3,title:"gerbera",description:"wedding flower"},
+{id:4,title:"lotus",description:"flower"}];
 res.send(products);
 };
 
